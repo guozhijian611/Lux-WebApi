@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  webman:
+    build: .
+    container_name: lux-api
+    ports:
+      - "8787:8787"
+    volumes:
+      - .:/www
+    restart: always
+    environment:
+      - TZ=Asia/Shanghai
+    command: php start.php start
