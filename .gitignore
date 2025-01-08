@@ -1,7 +1,7 @@
 /runtime
 /.idea
 /.vscode
-/vendor
+.git
 *.log
 .env
 /tests/tmp

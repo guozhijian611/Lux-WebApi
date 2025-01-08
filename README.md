@@ -18,8 +18,8 @@
 1. 确保已安装 Docker 和 Docker Compose
 2. 克隆项目：
 ```bash
-git clone [your-repository-url]
-cd [project-directory]
+git clone [https://github.com/guozhijian611/Lux-WebApi]
+cd [Lux-WebApi]
 ```
 
 3. 使用 Docker Compose 启动服务：
